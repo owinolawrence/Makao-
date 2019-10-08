@@ -1,0 +1,17 @@
+body{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image:url("https://www.constructionkenya.com/wp-content/uploads/2018/07/Karen.jpg");
+}
+h1{
+  color:white;
+}
+.jumbotron{
+width:500px;
+height:60vh;
+float:right;
+margin:30px;
+}
+.bttn{
+  margin: 10px;
+}
