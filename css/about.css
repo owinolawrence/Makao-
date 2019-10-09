@@ -1,3 +1,15 @@
+/* .icon {
+  height:140px;
+  width:140px;
+   margin-right:0; 
+  left: 0;
+  float: left;
+  position: sticky;  
+  top:0;
+} */
+/* *{
+  overflow-x: hidden;
+} */
 .container-fluid {
   height: 100%;
   /* overflow: hidden; */
@@ -52,7 +64,7 @@
   animation: 0.5s draw linear forwards;
 }
 .welcome{
-    text-emphasis-color: filled double-circle blue;
+    text-emphasis-color: filled double-circle blue  ;
 }
 img{
     display:block;

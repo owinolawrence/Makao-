@@ -1,7 +1,8 @@
 h1{
   text-align: center;
   font-family: 'Cinzel', serif;
-  font-size: 5.5em;
+  font-size: 2em;
+  
 }
 img{
   width: 350px;
@@ -10,7 +11,51 @@ img{
   box-shadow: 10px 10px 5px grey;
   
 }
+.table{
+  padding-top:40px;
+}
 p{
   font-size:1em;
   font-family: 'Cinzel', serif;
 }
+.svg-wrapper {
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 360px;
+  padding: 20px;
+ }
+ .shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: darkred;
+ }
+ .text {
+  color: darkgoldenrod;
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+ }
+ @keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+ }
+ .svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+ }
