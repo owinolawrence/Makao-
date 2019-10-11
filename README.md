@@ -8,9 +8,8 @@
 ### Authors
 ## Brian Ochieng
 ## Mariam Osman
-## Paul Oketch
+## Paul OKetch
 ## Lawrence Odhiambo
-
 
 ### Technologies used
 ## HTML

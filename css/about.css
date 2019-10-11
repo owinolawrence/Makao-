@@ -10,6 +10,12 @@
 /* *{
   overflow-x: hidden;
 } */
+<<<<<<< HEAD
+body{
+  font-family: 'Cinzel', serif;
+}
+=======
+>>>>>>> upstream/dev
 .container-fluid {
   height: 100%;
   /* overflow: hidden; */
@@ -17,6 +23,10 @@
   margin: 0 auto;
   padding-top: 100px;
   padding-block-end: initial;
+<<<<<<< HEAD
+  font-family: 'Cinzel', serif;
+=======
+>>>>>>> upstream/dev
 }
 
 .svg-wrapper {
@@ -38,7 +48,11 @@
 
 .text {
   color: darkgoldenrod;
+<<<<<<< HEAD
+  font-family: 'Cinzel', serif;
+=======
   font-family: "Roboto Condensed";
+>>>>>>> upstream/dev
   font-size: 22px;
   letter-spacing: 8px;
   line-height: 32px;
@@ -65,6 +79,10 @@
 }
 .welcome{
     text-emphasis-color: filled double-circle blue  ;
+<<<<<<< HEAD
+    font-family: 'Cinzel', serif;
+=======
+>>>>>>> upstream/dev
 }
 img{
     display:block;
@@ -76,10 +94,60 @@ img{
 }
 h2{
     font-size: 32px;
+<<<<<<< HEAD
+    font-family: 'Cinzel', serif;
+=======
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+>>>>>>> upstream/dev
     text-decoration-color: black;
     text-underline-position: below;
 }
 .caption{
     text-align: center;
+<<<<<<< HEAD
+    font-family: 'Cinzel', serif;
+}
+.search-houses{
+  width: 50%;
+  text-align: center;
+  padding-left: 30%;
+  font-family: 'Cinzel', serif;
+  
+}
+#jumb{
+  width:900px;
+  text-align: center;
+  margin-left:500px;
+  height: 500px;
+  font-family: 'Cinzel', serif;
+
+}
+#for{
+  width:240px;
+  height:50px;
+}
+input{
+  width:210px;
+  margin:10px;
+}
+h5{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size:;
+}
+#card{
+  font-family: 'Cinzel', serif;
+}
+p{
+  font-family: 'Cinzel', serif;
+}
+#search{
+  text-align: center;
+}
+
+input[type=text]{
+  font-size:20px;
+  width:240px;
+=======
+>>>>>>> upstream/dev
 }
