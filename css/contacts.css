@@ -41,20 +41,40 @@
  }
  #jum{
    margin-top: 40px;
+   width:600px;
+   text-align: center;
+   margin-left:10px;
  }
  .comment{
-   width:500px;
+   width:400px;
    height:180px;
  }
  .jina3{
-   margin-left: 70px;
- }
- body{
-   background-size:cover;
-   background-repeat:no-repeat;
-   background-image:url("https://media.istockphoto.com/photos/white-post-it-notes-imprinted-with-contact-us-symbols-on-blue-picture-id925857874?k=6&m=925857874&s=612x612&w=0&h=2H5P2UsXLKrXwGSuS4zhFkuFowG7sFgDH80ke8Ph1_g=");
- }
- .info{
+   margin-left: 80px;
    text-align: center;
-   margin-top:80px;
+   font-family: 'Cinzel', serif;
  }
+ .jina{
+  font-family: 'Cinzel', serif;
+ }
+ 
+ 
+body{
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image: url("https://media.istockphoto.com/photos/white-post-it-notes-imprinted-with-contact-us-symbols-on-blue-picture-id925857874?k=6&m=925857874&s=612x612&w=0&h=2H5P2UsXLKrXwGSuS4zhFkuFowG7sFgDH80ke8Ph1_g=");
+}
+#info{
+  text-align: center;
+  padding-top:50px;
+  font-family: 'Cinzel', serif;
+}
+h3{
+  font-family: 'Cinzel', serif;
+}
+#button{
+  font-family: 'Cinzel', serif;
+}
+.googleMap{
+  float:right;
+}
