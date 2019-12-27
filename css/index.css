@@ -1,0 +1,115 @@
+
+
+body{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image:url("https://www.constructionkenya.com/wp-content/uploads/2018/07/Karen.jpg");
+}
+/* h1{
+  color:black;
+  font-family: 'Cinzel', serif;
+  float:left;
+  /* margin-top:20px; */
+  /* margin-left:330px; */
+  
+  /* padding-left: 20px; */
+  /* text-align: justify; */ */
+   /* clear:both; */ */ */
+
+h1{
+  
+  font-family: 'Cinzel', serif;
+  /* font-size: 4.5em; */
+  
+}
+.ma{
+  font-size:7em;
+  text-align: center;
+  padding-top:200px;
+  font-family: 'Cinzel', serif;
+}
+.overlay{
+  color:black;
+  position: fixed;
+  padding-top: 200px; 
+  /* display: none;  */
+   width: 30%;
+   height:20%;
+  
+  /* left: 0;
+  right: 0;
+  bottom: 0; */ 
+  background-color:
+  background: 
+  background: 
+  z-index:2; 
+  opacity:1;
+}
+/* .svg-wrapper {
+  
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 330px;
+  padding-top:130px;
+  margin-right: 500px;
+ }
+ .shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: #00FFFF;
+ }
+ .text {
+  color:goldenrod ;
+  font-family: "Roboto Condensed";
+  /* font-size: em; */
+  /* letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px; */
+ /* }
+ @keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+ }
+ .svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+ }  */
+ 
+#jumb1{
+  color:#00FFFF;
+  margin-top:30px;
+  width:500px;
+  height:25vh;
+  float:right;
+  margin-right:80px;
+  font-family: 'Cinzel', serif;
+  
+
+}
+#jumb{
+  color:#00FFFF;
+width:500px;
+height:55vh;
+float:right;
+margin-right:80px;
+clear:both;
+font-family: 'Cinzel', serif;
+}
+.bttn{
+  margin: 10px;
+}
+
