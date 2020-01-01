@@ -1,0 +1,165 @@
+/* .icon {
+  height:140px;
+  width:140px;
+   margin-right:0; 
+  left: 0;
+  float: left;
+  position: sticky;  
+  top:0;
+} */
+/* *{
+  overflow-x: hidden;
+}
+ body{
+  font-family: 'Cinzel', serif;
+}
+.container-fluid {
+  height: 100%;
+   overflow: hidden; */
+/* ext-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-block-end: initial;
+  font-familyt: 'Cinzel', serif; 
+} */
+
+.svg-wrapper {
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: darkred;
+}
+
+.text {
+  color: darkgoldenrod;
+  font-family: "Cinzel", serif;
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+.welcome {
+  text-emphasis-color: filled double-circle blue;
+  font-family: "Cinzel", serif;
+}
+img {
+  display: block;
+  width: 90%;
+  height: 280px;
+  padding: 8px;
+}
+h2 {
+  font-size: 32px;
+  font-family: "Cinzel", serif;
+  text-decoration-color: black;
+  text-underline-position: below;
+}
+
+.caption {
+  text-align: center;
+  font-family: "Cinzel", serif;
+}
+.search-houses {
+  width: 50%;
+  text-align: center;
+  padding-left: 30%;
+  font-family: "Cinzel", serif;
+}
+#jumb {
+  width: 900px;
+  text-align: center;
+  margin-left: 500px;
+  height: 500px;
+  font-family: "Cinzel", serif;
+}
+
+#for {
+  width: 240px;
+  height: 50px;
+}
+input {
+  width: 210px;
+  margin: 10px;
+}
+h5 {
+  text-align: center;
+  font-family: "Cinzel", serif;
+}
+#card {
+  font-family: "Cinzel", serif;
+}
+p {
+  font-family: "Cinzel", serif;
+}
+#search {
+  text-align: center;
+}
+
+input[type="text"] {
+  font-size: 15px;
+  width: 240px;
+}
+
+nav {
+  background-color: #1514149c;
+  padding: 20px;
+  position: relative;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+ul li {
+  display: inline;
+}
+li {
+  font-size: 25px;
+  font-family: verdana;
+  font-weight: bolder;
+}
+li a {
+  display: inline;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #4caf50;
+}
+li a:hover:not(.active) {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  text-decoration: none;
+}

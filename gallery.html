@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+
+    <title>Makao</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="advert.html">ADVERT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="">
+        <div class="svg-wrapper">
+            <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                <rect class="shape" height="60" width="320" />
+            </svg>
+            <div class="text" align="center">
+                <h1>MAKAO</h1>
+            </div>
+        </div>
+    </div>
+    <div class="table">
+        <div class="row">
+            <div class="col-md-3 click1">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image"
+                            src="https://constructionreviewonline.com/wp-content/uploads/2015/04/Real-estate-development-Kenya-e1430732199236.jpg"
+                            width="350" height="270" class="image img-fluid" alt="Responsive image">
+                        <div class="overlay">
+                            <h2>Along Thika Road</h2>
+                            <a class="info" href="#">
+                                <p>Location:Along Thika Road (Next to Garden City Mall)<br>Price:Kshs.35,000<br>Unites:5
+                                    Bedroom.</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para">
+                                <!-- <p>Location:Along Thika Road (Next to Garden City Mall)<br>Price:Kshs.35,000<br>Unites:5 -->
+                                <!-- Bedroom.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click2">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image0"
+                            src="https://q-xx.bstatic.com/xdata/images/hotel/max1000/155961095.jpg?k=a934545c050dea775c336c7321d6e7382f632b31663dcc912a40754448f00a9f"
+                            width="350" height="270" class="image img-fluid" alt="Responsive image">
+                        <div class="overlay">
+                            <h2>Nyayo Estate</h2>
+                            <a class="info" href="#">
+                                <p class="show2">Location:Nyayo Estate<br>Price:Varies with unites<br>Unites:2
+                                    Bedrooms,3
+                                    Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="para0">
+                            <!-- <p class="show2">Location:Nyayo Estate<br>Price:Varies with unites<br>Unites:2 Bedrooms,3
+                            Bedrooms</p> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click3">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image1"
+                            src="https://kenyayote.com/wp-content/uploads/2017/10/The-Best-Estates-to-Live-In-Nairobi-Most-expensive-for-middle-class-and-cheap.jpg"
+                            width="350" height="270" class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Donholm</h2>
+                            <a class="info" href="#">
+                                <p class="show3">Location:Donholm <br>Price:Varies with unites<br>Unites:3 Bedrooms,2
+                                    Bedroom.</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para2">
+                                <!-- <p class="show3">Location:Donholm <br>Price:Varies with unites<br>Unites:3 Bedrooms,2
+                                Bedroom.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click4">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image2"
+                            src="https://www.standardmedia.co.ke/images/tuesday/gnevzydgtkrklib5rof5ba9c14346dff.jpg"
+                            width="300" height="270" class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Langatta </h2>
+                            <a class="info" href="#">
+                                <p class="show4">Location:Langatta <br>Price:Kshs.40,000<br>Unites:4 Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para2">
+                                <!-- <p class="show4">Location:Langatta <br>Price:Kshs.40,000<br>Unites:4 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="table">
+        <div class="row">
+            <div class="col-md-3 click5">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image3"
+                            src="https://crystalvaluers.com/assets/WPL/258/thimg_IMG_20180128_152749_autox600.jpg"
+                            width="300" height="270" class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Syokimau</h2>
+                            <a class="info" href="#">
+                                <p class="show5">Location:Syokimau <br>Price:Kshs.30,000<br>Unites:4 Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para3">
+                                <!-- <p class="show5">Location:Syokimau <br>Price:Kshs.30,000<br>Unites:4 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click6">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image4"
+                            src="https://danco.co.ke/wp-content/uploads/2019/03/komarock-1.jpg" width="450" height="270"
+                            class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Komarock </h2>
+                            <a class="info" href="#">Location:Komarock (Komarock Heights)
+                                <br>Price:Kshs.37,000<br>Unites:3 Bedrooms,2 Bedrooms</p></a>
+                        </div>
+                        <div class="middle">
+                            <div class="para4">
+                                <!-- <p class="show6">Location:Komarock (Komarock Heights)
+                                        <br>Price:Kshs.37,000<br>Unites:3 Bedrooms,2 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click7">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image5"
+                            src="https://content.knightfrank.com/property/kna170019/images/c63f140c-ad41-4c57-abb6-c2896541c3f4-73.jpg"
+                            width="300" height="270" class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Karen</h2>
+                            <a class="info" href="#">
+                                <p class="show7">Location:Karen<br>Price:Kshs.40,000<br>Unites:4 Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para5">
+                                <!-- <p class="show7">Location:Karen<br>Price:Kshs.40,000<br>Unites:4 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click8">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image6"
+                            src="https://crystalvaluers.com/assets/WPL/25/img_makao-exterior.jpg" width="300"
+                            height="270" class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Runda</h2>
+                            <a class="info" href="#">
+                                <p class="show8">Location:Runda
+                                    <br>Price:Rental.Kshs:70,000.Buying.Kshs:10M<br>Unites:5 Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para6">
+                                <!-- <p class="show8">Location:Runda
+                                                <br>Price:Rental.Kshs:70,000.Buying.Kshs:10M<br>Unites:5 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="table">
+        <div class="row">
+            <div class="col-md-3 click5">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image7"
+                            src="https://www.propertypedia.com/wp-content/uploads/2018/08/IMG-20180812-WA0082.jpg"
+                            width="300" height="270" class="image img-fluid" alt="Responsive image">
+
+                        <div class="overlay">
+                            <h2>Kitengela</h2>
+                            <a class="info" href="#">
+                                <p class="show5">Location:Kitengela <br>Price:Kshs.30,000<br>Unites:4
+                                    Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para7">
+                                <!-- <p class="show5">Location:Kitengela <br>Price:Kshs.30,000<br>Unites:4
+                                                    Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click6">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image8"
+                            src="http://www.nairobibusinessmonthly.com/wp-content/uploads/2015/12/townhouses.jpg"
+                            width="450" height="270" class="image img-fluid" alt="Responsive image">
+                        <div class="overlay">
+                            <h2>Utawala</h2>
+                            <a class="info" href="#">
+                                <p class="show6">Location:Utawala <br>Price:Kshs.37,000<br>Unites:3
+                                    Bedrooms,2 Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para8">
+                                <!-- <p class="show6">Location:Utawala <br>Price:Kshs.37,000<br>Unites:3
+                                                        Bedrooms,2 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click7">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image9"
+                            src="http://www.coltran.co.ke/wp-content/uploads/2015/11/kahawa_downs_apartments_17801.jpg"
+                            width="300" height="270" class="image img-fluid" alt="Responsive image">
+                        <div class="overlay">
+                            <h2>Kahawa Apartments</h2>
+                            <a class="info" href="#">
+                                <p class="show7">Location:Kahawa Apartments<br>Price:Varies with
+                                    unites<br>Unites:2 Bedrooms,3 Bedrooms</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <div class="para9">
+                                <!-- <p class="show7">Location:Kahawa Apartments<br>Price:Varies with
+                                                            unites<br>Unites:2 Bedrooms,3 Bedrooms</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 click8">
+                <div class="hovereffect">
+                    <div class="container crosshover">
+
+                        <img class="shadow p-3 mb-5 bg-white rounded" id="image10"
+                            src="http://www.nairobibusinessmonthly.com/wp-content/uploads/2016/05/023-31-e1462523950713.jpg"
+                            width="300" height="270" class="image img-fluid" alt="Responsive image">
+                        <div class="overlay">
+                            <h2>Buruburu Flats</h2>
+                            <a class="info" href="#">
+                                <p>Location:Buruburu Flats <br>Price:Varies with
+                                    unites<br>Unites:3 Bedrooms,2 Bedrooms & ! Bedroom.</p>
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <!-- <div class="para10"> -->
+                            <!-- <p >Location:Buruburu Flats <br>Price:Varies with unites<br>Unites:3 Bedrooms,2 Bedrooms & ! Bedroom.</p></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
